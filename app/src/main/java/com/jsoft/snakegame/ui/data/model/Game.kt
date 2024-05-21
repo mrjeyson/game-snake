@@ -14,6 +14,7 @@ import java.util.Random
 
 class Game(private val scope: CoroutineScope) {
 
+
     private val mutex = Mutex()
     private val mutableState =
         MutableStateFlow(State(food = Pair(5, 5), snake = listOf(Pair(7, 7))))
