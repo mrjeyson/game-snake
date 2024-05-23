@@ -102,7 +102,6 @@ fun Buttons(onDirectionChange: (Pair<Int, Int>) -> Unit) {
 @Composable
 fun Board(state: State) {
 
-
     BoxWithConstraints(Modifier.padding(16.dp)) {
 
         val tileSize = maxWidth / BOARD_SIZE
@@ -112,7 +111,6 @@ fun Board(state: State) {
                 .size(maxWidth)
                 .border(2.dp, darkGreen)
         )
-
         Box(
             modifier = Modifier
                 .offset(
@@ -135,7 +133,6 @@ fun Board(state: State) {
         }
 
     }
-
 }
 
 
