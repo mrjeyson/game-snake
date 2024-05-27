@@ -131,7 +131,6 @@ fun Board(state: State) {
                     .background(darkGreen)
             )
         }
-
     }
 }
 
