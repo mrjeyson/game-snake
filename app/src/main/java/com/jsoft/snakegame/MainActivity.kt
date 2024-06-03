@@ -109,6 +109,7 @@ fun Board(state: State) {
                 .size(maxWidth)
                 .border(2.dp, darkGreen)
         )
+
         Box(
             modifier = Modifier
                 .offset(
