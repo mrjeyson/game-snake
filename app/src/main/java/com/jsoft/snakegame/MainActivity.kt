@@ -101,6 +101,7 @@ fun Buttons(onDirectionChange: (Pair<Int, Int>) -> Unit) {
 
 @Composable
 fun Board(state: State) {
+
     BoxWithConstraints(Modifier.padding(16.dp)) {
         val tileSize = maxWidth / BOARD_SIZE
         Box(
