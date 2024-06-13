@@ -61,6 +61,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+
 @Composable
 fun Snake(game: Game) {
 
