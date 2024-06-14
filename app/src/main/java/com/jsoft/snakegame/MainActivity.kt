@@ -43,6 +43,7 @@ import com.jsoft.snakegame.ui.theme.darkGreen
 import kotlinx.coroutines.CoroutineScope
 
 
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
