@@ -61,10 +61,8 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-
 @Composable
 fun Snake(game: Game) {
-
     val state = game.state.collectAsState(initial = null)
 
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
