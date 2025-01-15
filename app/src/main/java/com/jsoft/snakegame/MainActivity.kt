@@ -105,7 +105,6 @@ fun Buttons(onDirectionChange: (Pair<Int, Int>) -> Unit) {
 
 
 
-
     val buttonSize = Modifier.size(64.dp)
     Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.padding(24.dp)) {
         Button(onClick = { onDirectionChange(Pair(0, -1)) }, modifier = buttonSize) {
