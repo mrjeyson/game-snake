@@ -61,7 +61,6 @@ class MainActivity : ComponentActivity() {
 
 
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val game = Game(lifecycleScope)
