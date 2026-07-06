@@ -5,4 +5,3 @@ data class State(
     val snake: List<Pair<Int, Int>>
 )
 
-
